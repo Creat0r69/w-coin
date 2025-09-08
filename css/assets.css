@@ -2,7 +2,11 @@
 /*--------------------------------------------------
 	Ajax Page Transition
 ---------------------------------------------------*/
-	
+@font-face {
+	font-family: 'MyFont';
+	src: url('../fonts/Kompot Outline Styled.otf') format('opentype');
+}
+
 	main{
 		overflow:hidden
 	}
@@ -1211,7 +1215,7 @@
 		padding:0 0 18px 10px;
 		font-style:normal;
 		font-size:28px;
-		font-family:Arial,Baskerville,monospace
+		font-family:'MyFont',monospace
 	}
 	.mfp-close:active{
 		top:1px
@@ -1464,7 +1468,7 @@
 		content:attr(data-tooltip);
 		font-size:12px;
 		font-weight:500;
-		font-family:Poppins,sans-serif;
+		font-family:'MyFont',sans-serif;
 		color:#000;
 		padding:5px;
 		border-radius:5px;
@@ -1632,7 +1636,7 @@
 		color:#fff;
 		font-size:12px;
 		font-weight:300;
-		font-family:sans-serif
+		font-family:'MyFont';
 	}
 	.justified-gallery>.entry-visible{
 		filter:"alpha(opacity=100)";

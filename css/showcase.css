@@ -165,7 +165,7 @@
 		display:table;
 		vertical-align: middle;
 		width:auto;
-		font-size:120px;
+		font-size:150px;
 		line-height:120px;
 		height:120px;
 		font-weight: 700;
@@ -227,7 +227,7 @@
 	}
 	
 	.subtitle {
-		font-size:16px;
+		font-size:20px;
 		font-weight:600;
 		line-height:20px;
 		margin-bottom:0px;
